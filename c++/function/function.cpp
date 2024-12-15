@@ -3,10 +3,11 @@
 #include<algorithm>
 using namespace std;
 
-void sayHello(){// here we have declared a functio 
+void sayHello();// here we have declared a function
+
+//defining the function
+void sayHello(){ 
     cout << "Hello fuck world" << endl;
-
-
 }; 
 
 void goodBye(string name, int age){ //with aparameters
@@ -17,7 +18,7 @@ void goodBye(string name, int age){ //with aparameters
 
 int main(){
 
-    sayHello(); //call th function
+    sayHello(); //calling the  function
     goodBye("nilu", 20); //argument
     //user input
     string name;
