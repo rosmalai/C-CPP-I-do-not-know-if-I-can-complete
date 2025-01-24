@@ -9,5 +9,7 @@ the core oops concepts in java:
 - inheritance
 - polymorphism
 
+## Java exam is over I'm not doing this anymore!
+
 ### object
 
